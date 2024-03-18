@@ -73,7 +73,6 @@
 }
 
 .project {
-  /* position: relative; */
   background-color: rgba(245, 248, 250, 1);
   height: 50vh;
 }
@@ -87,4 +86,91 @@
   position: absolute;
   bottom: -80px;
   right: -2.9%;
+}
+.neccessary-link .link-list {
+  column-gap: 73px;
+}
+
+.neccessary-link .link-list .link-item .link-context {
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 4px;
+}
+.link-context a {
+  color: #182026;
+}
+
+.link-context a:hover {
+  color: #04638c;
+  transition: 1s;
+}
+
+.footer {
+  background-color: #014d51;
+  color: white;
+}
+
+.footer-items {
+}
+
+.footer-method {
+  width: 33%;
+  margin-top: 24px;
+}
+
+.method-context {
+  font-size: 11.4px;
+}
+
+.footer-menu li {
+  font-size: 14px;
+  padding-top: 12px;
+}
+.footer-menu li:first-child {
+  padding-top: 0;
+}
+
+.footer-menu li a {
+  color: #f5f8fa;
+  text-decoration: none;
+}
+
+.footer-edu li {
+  font-size: 14px;
+  padding-top: 12px;
+}
+
+.footer-edu li:first-child {
+  padding-top: 0;
+}
+
+.footer-edu li a {
+  color: #f5f8fa;
+  text-decoration: none;
+}
+
+.footer-contact .call p {
+  font-size: 12px;
+}
+
+.footer-contact .email p {
+  font-size: 12px;
+}
+
+.footer-contact .address p {
+  font-size: 12px;
+}
+
+.footer-contact a {
+  color: #f5f8fa;
+}
+
+.footer-bottom {
+  margin-top: 22px;
+  border-top: 1px solid #5c7080;
+}
+
+.footer-bottom p {
+  color: #d8e1e8;
+  font-size: 12px;
 }
