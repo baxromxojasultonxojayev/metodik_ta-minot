@@ -10,6 +10,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./responsive.css" />
     <title>Document</title>
   </head>
   <body>
@@ -134,8 +135,10 @@
     </div>
 
     <div class="method">
-      <div class="container d-flex align-items-center">
-        <div class="w-50 left-side">
+      <div
+        class="container d-flex align-items-center flex-xl-row flex-column-reverse"
+      >
+        <div class="w-100 w-xl-50 text-center text-xl-start pt-4 left-side">
           <h1>Metodik ta’minot platformasi</h1>
           <div class="input-group w-50 mb-3">
             <span class="input-group-text search-icon" id="basic-addon1">
@@ -161,7 +164,7 @@
             />
           </div>
         </div>
-        <img src="./image/method.png" class="right-image mx-5" />
+        <img src="./image/method.png" class="right-image mx-5 w-50" />
       </div>
     </div>
 
@@ -169,9 +172,11 @@
       <div class="container">
         <div class="d-flex justify-content-between">
           <h2>Yangiliklar va e'lonlar</h2>
-          <a href="#">Barcha yangiliklar va e’lonlar</a>
+          <a href="#" class="d-none d-md-block text-decoration-none"
+            >Barcha yangiliklar va e’lonlar</a
+          >
         </div>
-        <div class="news-data d-flex">
+        <div class="news-data d-block d-lg-flex">
           <div class="left-date my-3">
             <p class="text-secondary p-0 m-0">12.06.2021 14:21</p>
             <h3 class="text-dark">
@@ -183,7 +188,7 @@
               moʻl-koʻl boʻladi.
             </p>
           </div>
-          <div class="right-date my-3">
+          <div class="right-date mt-3 mt-lg-0 pt-2 pt-lg-3 border-top my-3">
             <p class="text-secondary p-0 m-0">12.06.2021 14:21</p>
             <h3 class="text-dark">
               Pedagogik taʼlim innovatsion klasteri: ehtiyoj, zarurat, natija
@@ -195,8 +200,12 @@
             </p>
           </div>
         </div>
-
-        <ul class="d-flex justify-content-between method-list m-0 p-0 mt-5">
+        <a href="#" class="d-block d-md-none text-decoration-none"
+          >Barcha yangiliklar va e’lonlar</a
+        >
+        <ul
+          class="d-block d-lg-flex justify-content-between method-list m-0 p-0 mt-5"
+        >
           <li class="method-item">
             <h1 class="p-0 m-0">3 481</h1>
             <p class="p-0 m-0">Umumiy darsliklar</p>
@@ -264,7 +273,7 @@
           </ul>
         </div>
         <ul class="card-list d-flex p-0 m-0">
-          <li class="card-item w-50">
+          <li class="card-item w-100 w-lg-50">
             <div class="card w-100" style="width: 18rem">
               <div class="card-body d-flex">
                 <div>
@@ -283,7 +292,7 @@
               >
             </div>
           </li>
-          <li class="card-item w-50 mx-3">
+          <li class="card-item d-none d-lg-block w-50 mx-3">
             <div class="card w-100" style="width: 18rem">
               <div class="card-body d-flex">
                 <div>
@@ -310,7 +319,7 @@
       <div
         class="container d-flex justify-content-between align-items-end hello"
       >
-        <div class="left-side w-50">
+        <div class="left-side w-100 w-lg-50">
           <h2>Loyiha haqida</h2>
           <p>
             Ushbu axborot tizimi Pedagogik innovatsiyalar, kasb-hunar taʼlimi
@@ -320,10 +329,10 @@
             taʼlim muassasalari uchun metodik ta’minotni amalga oshiradi.
           </p>
         </div>
-        <div class="right-side">
+        <div class="right-side d-none d-lg-block">
           <img src="./image/rocket.svg" class="rocket" />
         </div>
-        <img src="./image/bluesmoke.svg" class="bluesmoke" />
+        <img src="./image/bluesmoke.svg" class="bluesmoke d-none d-lg-block" />
       </div>
     </div>
 
@@ -367,7 +376,7 @@
 
         <ul class="d-flex m-0 p-0 align-items-center link-list">
           <li
-            class="d-flex justify-content-betweence align-items-center w-50 link-item"
+            class="d-flex justify-content-betweence align-items-center w-100 w-lg-50 link-item"
           >
             <img src="./image/emblem.svg" class="image" />
             <p class="link-context pt-3">
@@ -378,7 +387,7 @@
             </p>
           </li>
           <li
-            class="d-flex justify-content-betweence align-items-center w-50 link-item"
+            class="d-none d-lg-flex justify-content-betweence align-items-center w-50 link-item"
           >
             <img src="./image/emblem.svg" class="image" />
             <p class="link-context">
@@ -388,7 +397,7 @@
             </p>
           </li>
           <li
-            class="d-flex justify-content-betweence align-items-center w-50 link-item"
+            class="d-none d-lg-flex justify-content-betweence align-items-center w-50 link-item"
           >
             <img src="./image/image.svg" class="image" />
             <p class="link-context">
@@ -406,7 +415,7 @@
     <footer class="footer">
       <div class="container pt-5 mt-5">
         <div
-          class="d-flex justify-content-between align-items-center footer-items"
+          class="d-block d-lg-flex justify-content-between align-items-center footer-items"
         >
           <div class="footer-method">
             <h4>Metodik ta’minot platformasi</h4>
@@ -419,7 +428,9 @@
               </p>
             </div>
           </div>
-          <ul class="w-25 m-0 p-0 mx-5 px-5 footer-menu">
+          <ul
+            class="w-100 w-lg-25 m-0 p-0 mx-lg-5 mx-0 px-0 px-lg-5 footer-menu"
+          >
             <li>
               <a href="#">Bosh sahifa </a>
             </li>
@@ -436,7 +447,7 @@
               <a href="#">Maxfiylik siyosati</a>
             </li>
           </ul>
-          <ul class="w-25 p-0 m-0 footer-edu">
+          <ul class="w-100 w-lg-25 p-0 m-0 footer-edu">
             <li>
               <a href="#">Bosh sahifa </a>
             </li>
@@ -453,7 +464,7 @@
               <a href="#">Maxfiylik siyosati</a>
             </li>
           </ul>
-          <div class="w-25 footer-contact">
+          <div class="w-100 w-lg-25 footer-contact">
             <div class="call">
               <p class="p-0 m-0 telephone">Telefon</p>
               <a href="tel:99893333333" class="text-decoration-none"
@@ -474,9 +485,9 @@
         </div>
 
         <div
-          class="d-flex justify-content-between align-items-center footer-bottom"
+          class="d-block d-lg-flex justify-content-between align-items-center footer-bottom"
         >
-          <p>
+          <p class="mt-3 mt-lg-0">
             © 2021 Metodik ta’minot platformasi. Barcha huquqlar himoyalangan.
           </p>
           <img src="./image/footer-bottom.svg" />

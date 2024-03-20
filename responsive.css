@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+  .method .input-group {
+    width: 100% !important;
+  }
+
+  .method-item .line {
+    width: 56px;
+    height: 4px;
+    background-color: rgba(6, 152, 157, 1);
+    margin-top: 12px;
+    margin-bottom: 32px;
+  }
+
+  .project {
+    background-color: rgba(245, 248, 250, 1);
+    height: 40vh;
+  }
+
+  .footer-method {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .footer-method h4 {
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    width: 52px;
+  }
+  .method-context {
+    font-size: 10.58px;
+  }
+
+  .footer-edu li:first-child {
+    padding-top: 24px;
+  }
+
+  .footer-contact .call {
+    margin-top: 24px;
+  }
+
+  .email {
+    margin-top: 24px;
+  }
+
+  .address {
+    margin-top: 20px;
+  }
+}
